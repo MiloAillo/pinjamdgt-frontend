@@ -1,0 +1,46 @@
+.pinjam-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    width: 100vw;
+    height: 80px;
+    background-color: #8F96FF;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px;
+    font-family: 'Inter';
+}
+
+.header-tittle {
+    font-size: 28px;
+    color: white;
+    font-weight: 600;
+}
+
+.header-name {
+    font-size: 28px;
+    color: white;
+    font-weight: 400px;
+}
+
+.items {
+    width: 100vw;
+    height: calc(100vh - 80px);
+    position: fixed;
+    bottom: 0;
+    overflow: scroll;
+}
+
+.items {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    padding: 50px;
+    justify-content: center;
+}

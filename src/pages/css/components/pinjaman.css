@@ -1,0 +1,36 @@
+.pinjaman-container {
+    height: fit-content;
+    width: 100%;
+    background-color: white;
+    padding: 15px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border-radius: 5px;
+}
+
+.pinjaman-info {
+    display: flex;
+    color: black;
+    justify-content: space-between;
+}
+
+.pinjaman-tittle {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.pinjaman-subtotal {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.pinjaman-return {
+    color: black;
+    text-align: center;
+    border: black 2px solid;
+    padding: 5px;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 500;
+}

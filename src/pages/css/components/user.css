@@ -1,0 +1,74 @@
+.user {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border: 5px solid #8F96FF;
+    border-radius: 10px;
+    padding: 30px;
+    font-family: 'Inter', sans-serif;
+    transition: background-color 0.1s ease-in-out, color 0.3s ease-in-out;
+}
+
+.user-profile-container {
+    display: flex;
+    justify-content: space-between;
+    max-height: 100px;
+    min-height: 100px;
+    width: 100%;
+}
+
+.user-profile {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.user-profile-name {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.user-profile-phone {
+    font-size: 26px;
+    font-weight: 500;
+}
+
+.user-member-status {
+    font-size: 32px;
+    font-weight: 300;
+}
+
+.user-static {
+    color: #8F96FF;
+}
+
+.user:hover {
+    background-color: #8F96FF;
+    color: #ffffff;
+}
+
+.user-active {
+    background-color: #8F96FF;
+    color: #ffffff;
+}
+
+.user-extend {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.user-pinjam {
+    width: 100%;
+    text-align: center;
+    border: 3.5px white solid;
+    color: white;
+    padding: 8px;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.deactivate {
+    display: none;
+}

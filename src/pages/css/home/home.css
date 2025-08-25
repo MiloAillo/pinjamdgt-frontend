@@ -1,0 +1,59 @@
+.home-container {
+    display: flex;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.mainscreen-container {
+    flex: 1;
+    overflow-y: auto;
+}
+
+.tambahPelangganBTN {
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #8F96FF;
+    color: white;
+    font-size: 40px;
+    border-radius: 7px;
+    transition: scale 0.3s ease;
+}
+
+.tambahPelangganBTN:hover {
+    scale: 1.05;
+}
+
+.tambahPelanggan-overlay {
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.307);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tambahPelanggan-main-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: start;
+}
+
+.tambahPelanggan-closeBTN {
+    background-color: white;
+    height: 40px;
+    width: 40px;
+    font-family: 'Inter';
+    font-size: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+}

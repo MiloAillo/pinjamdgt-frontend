@@ -1,0 +1,59 @@
+.tambah-pelanggan-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    padding: 30px;
+    gap: 15px;
+    width: 500px;
+    font-family: 'Inter', sans-serif;
+    height: max-content;
+    border-radius: 10px;
+}
+
+.tambah-pelanggan-form-container form {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.tambah-pelanggan-form-container form > div {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 3px;
+}
+
+.tambah-pelanggan-form-container input {
+    width: 100%;
+}
+
+.tambah-pelanggan-tittle {
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.tambah-pelanggan-form-data label {
+    font-size: 18px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.845);
+}
+
+.tambah-pelanggan-form-data input, .tambah-pelanggan-form-data select {
+    width: 100%;
+    height: 30px;
+    border-radius: 3px;
+    border: 1px solid;
+    padding: 5px;
+}
+
+.tambah-pelanggan-submit {
+    background-color: #8F96FF;
+    width: 400px;
+    text-align: center;
+    padding: 6px;
+    border-radius: 3px;
+    font-weight: 500;
+}
